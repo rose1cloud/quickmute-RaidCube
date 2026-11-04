@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "quickmute",
+  "version": "1.0.0",
+  "name": "QuickMute",
+  "description": "Быстрые команды для выдачи мутов",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.quickmute.QuickMuteClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
